@@ -2,7 +2,19 @@
 
 .landingvid{height:95vh; background-color:black;}
 
-.banner1{height:65vh; background-image:url(../images/machine.jpg); background-size:180%; background-position:; padding:18% 0 0 4%; background-repeat: no-repeat;}
+.banner1{
+	height:; 
+	position:relative; 
+	background-image:url(../images/machine.jpg); 
+	background-size:100% auto; 
+	background-attachment:fixed; 
+	background-position:center top; 
+	margin:0; 
+	padding:18% 0 0 4%; 
+	background-repeat: no-repeat;
+
+}
+
 .banner1 h1{font-size: 100px; color:white;}
 
 .banner2{height:65vh; background-color:black;}
