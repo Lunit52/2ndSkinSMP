@@ -1,11 +1,13 @@
 * {margin:0; padding:0;}
 
+body{background-image:url(../images/background-test.svg);background-position: fixed;}
+
 .landingvid{height:95vh; background-color:black;}
 
 .banner1{
-	height:; 
+	height:70vh; 
 	position:relative; 
-	background-image:url(../images/machine.jpg); 
+	background-color: black; 
 	background-size:100% auto; 
 	background-attachment:fixed; 
 	background-position:center top; 
@@ -17,4 +19,55 @@
 
 .banner1 h1{font-size: 100px; color:white;}
 
+@media only screen (max-width: 768px){
+ 
+ .banner1{
+	height:80vh; 
+	position:relative; 
+	background-image:url(../images/machine.jpg); 
+	background-size:100% auto; 
+	background-attachment:fixed; 
+	background-position:center top; 
+	margin:0; 
+	padding:18% 0 0 4%; 
+	background-repeat: no-repeat;
+
+}
+
+.banner1 h1{font-size: 50px; color:white;}
+ 
+}
+
+.content {
+	margin:0 auto;
+	padding: 0px 40px;
+	width:90%;
+	background-color:white;
+	-webkit-box-shadow: 3px 3px 5px 6px #8b919b;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  	-moz-box-shadow:    3px 3px 5px 6px #8b919b;  /* Firefox 3.5 - 3.6 */
+  	box-shadow:         3px 3px 5px 6px #8b919b;
+	
+}
+
+.content h1 {padding:20px 0 0 0;}
+
+.content * {margin:8% 0 0 0;}
+
+.content p {margin:5% 0 0 0;}
+
+.content li {margin:3% 0 0 0;}
+
+#procedurePic {
+	
+	height:200px; 
+	width:200px;
+	background-color:black;
+	margin: 8% auto;
+}
+
+
+
+
+
 .banner2{height:65vh; background-color:black;}
+
