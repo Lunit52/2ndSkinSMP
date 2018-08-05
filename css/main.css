@@ -63,11 +63,13 @@ body{background-image:url(../images/background-test.svg);background-position: fi
 
 #procedurePic {
 	
-	height:200px; 
-	width:200px;
+	height:400px; 
+	width:400px;
 	background-color:black;
-	margin: 8% auto;
+	margin: 4% 20% 0 20%;
 }
+
+.round-corners {border-radius:20px;}
 
 .navbar {padding:1% 2%;}
 
