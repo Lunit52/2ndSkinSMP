@@ -8,6 +8,7 @@ body{background-image:url(../images/background-test.svg);background-position: fi
 	height:70vh; 
 	position:relative; 
 	background-color: black; 
+	background-image:url(../images/procedure.png);
 	background-size:100% auto; 
 	background-attachment:fixed; 
 	background-position:center top; 
@@ -24,7 +25,7 @@ body{background-image:url(../images/background-test.svg);background-position: fi
  .banner1{
 	height:80vh; 
 	position:relative; 
-	background-image:url(../images/machine.jpg); 
+	background-image:url(../images/procedure.png); 
 	background-size:100% auto; 
 	background-attachment:fixed; 
 	background-position:center top; 
