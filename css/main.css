@@ -1,8 +1,8 @@
 * {margin:0; padding:0;}
 
-body{background-image:url(../images/background-test.svg);background-position: fixed;}
+body{}
 
-.landingvid{height:95vh; background-color:black;}
+.landingvid{height:95vh; background-color:black; margin:0 auto;}
 
 .banner1{
 	height:70vh; 
@@ -36,6 +36,14 @@ body{background-image:url(../images/background-test.svg);background-position: fi
 }
 
 .banner1 h1{font-size: 50px; color:white;}
+
+#procedurePic {
+	
+	height:100%; 
+	width:100%;
+	background-color:black;
+	margin: 4% 20% 0 20%;
+}
  
 }
 
@@ -44,9 +52,6 @@ body{background-image:url(../images/background-test.svg);background-position: fi
 	padding: 0px 40px;
 	width:90%;
 	background-color:white;
-	-webkit-box-shadow: 3px 3px 5px 6px #8b919b;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  	-moz-box-shadow:    3px 3px 5px 6px #8b919b;  /* Firefox 3.5 - 3.6 */
-  	box-shadow:         3px 3px 5px 6px #8b919b;
 	
 }
 
@@ -64,8 +69,8 @@ body{background-image:url(../images/background-test.svg);background-position: fi
 
 #procedurePic {
 	
-	height:400px; 
-	width:400px;
+	height:60%; 
+	width:60%;
 	background-color:black;
 	margin: 4% 20% 0 20%;
 }
