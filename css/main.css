@@ -2,7 +2,11 @@
 
 body{}
 
-.landingvid{height:95vh; background-color:black; margin:0 auto;}
+.video-background,
+.video-background iframe {
+  height:100vh;
+  
+}
 
 .banner1{
 	height:70vh; 
