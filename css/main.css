@@ -6,7 +6,15 @@ body{}
   max-width: 100%;
   margin: 0px auto;
 }
-
+/*test for responsive banner 
+    .test {
+      height: 0;
+      padding-bottom: 40%;
+      width: 100%;
+      background-image: url(../images/procedure.png) no-repeat;
+      background-size: cover;
+    }
+*/
 .auto-resizable-iframe > div {
   position: relative;
   padding-bottom: 65%;
@@ -22,20 +30,20 @@ body{}
 }
 
 .banner1{
-	height:70vh; 
+	height:0; 
 	position:; 
 	background-color: black; 
 	background-image:url(../images/procedure.png);
-	background-size:100% auto; 
+	background-size:cover; 
 	background-attachment:fixed; 
 	background-position:center top; 
 	margin:0; 
-	padding:18% 0 0 4%;
+	padding-bottom: calc(40% + 200px);
 	background-repeat: no-repeat;
 
 }
 
-.banner1 h1{font-size: 100px; color:white;}
+.banner1 h1{font-size: 4rem; color:white;}
 
 
 
@@ -105,16 +113,25 @@ body{}
 	.navbar {padding:0 2% 0% 2%;}
 }
 
+.banner1 {padding-bottom:calc (40% + 100px);}
+
+.banner1 h1 {font-size:8rem;}
+
 .banner2{
-	height:80vh; 
-	position:relative; 
-	background-image:url(../images/results-banner.png); 
-	background-size:100% auto; 
+	height:0; 
+	position:; 
+	background-color: black; 
+	background-image:url(../images/results-banner.png);
+	background-size:cover; 
 	background-attachment:fixed; 
 	background-position:center top; 
 	margin:0; 
-	padding:18% 0 0 4%; 
-	background-repeat: no-repeat;}
+	padding-bottom: calc(40% + 200px);
+	background-repeat: no-repeat;
 
 .banner2 h1{font-size:100px;color:white;}
+
+
+
+
 
