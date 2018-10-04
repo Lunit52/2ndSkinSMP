@@ -56,7 +56,7 @@ body{}
 
 }
 
-.banner1 h1{font-size: 50px; color:white;}
+
 
 #procedurePic {
 	
@@ -68,17 +68,14 @@ body{}
  
 }
 
-.content {
+.center {
 	margin:0 auto;
-	padding: 0px 40px;
-	width:90%;
-	background-color:white;
 	
 }
 
 
 
-.content * {margin:8% 0 0 0;}
+.content * {}
 
 .content h1 {margin: 5% 0 0 0; padding:20px 0 30px 0;}
 
@@ -106,6 +103,23 @@ body{}
 	.navbar {padding:0 2% 0% 2%;}
 }
 
+@media only screen and (max-width: 600px) {
 
-.banner2{height:65vh; background-color:black;}
+	.content{width:60%;}
+	.navbar {padding:0 2% 0% 2%;}
+}
+
+
+.banner2{
+	height:80vh; 
+	position:relative; 
+	background-image:url(../images/results-banner.png); 
+	background-size:100% auto; 
+	background-attachment:fixed; 
+	background-position:center top; 
+	margin:0; 
+	padding:18% 0 0 4%; 
+	background-repeat: no-repeat;}
+
+.banner2 h1{font-size:100px;color:white;}
 
