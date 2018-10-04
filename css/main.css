@@ -2,17 +2,6 @@
 
 body{}
 
-.vid {}
-
-.video-background,
-.video-background iframe {
-  
-  
-  background-color:white;
-  position:;
-  
-}
-
 .auto-resizable-iframe {
   max-width: 100%;
   margin: 0px auto;
@@ -50,7 +39,9 @@ body{}
 
 @media only screen (max-width: 768px){
 
- iframe {height:400px;}
+ .auto-resizable-iframe {max-width:150%; }
+
+ .auto-resizable-iframe iframe {height:100%;}
  
  .banner1{
 	height:80vh; 
