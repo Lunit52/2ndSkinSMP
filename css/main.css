@@ -103,7 +103,7 @@ body{}
 	margin: 4% 20% 0 20%;
 }
 
-.round-corners {border-radius:20px;}
+.round-corners {border-radius:5px;}
 
 .navbar {padding:1% 2%;}
 
@@ -115,7 +115,9 @@ body{}
 
 .banner1 {padding-bottom:calc (40% + 100px);}
 
-.banner1 h1 {font-size:8rem;}
+.banner1 h1 {font-size:6rem;margin:25% 3%;position:absolute; color:white;}
+
+.banner2 h1 {font-size:6rem;margin:25% 3%;position:absolute; color:white;}
 
 .banner2{
 	height:0; 
@@ -129,8 +131,17 @@ body{}
 	padding-bottom: calc(40% + 200px);
 	background-repeat: no-repeat;
 
-.banner2 h1{font-size:100px;color:white;}
+}
 
+.banner2 h1 {font-size:100px;color:white;}
+
+.results-content h2{margin: 5% 0;}
+
+.results-content img{margin:5% 0;}
+
+.index-content img{margin:5% 0;}
+
+.footer {height:100px; width:100%; background-color:black; margin:10% 0 0 0 ;}
 
 
 
